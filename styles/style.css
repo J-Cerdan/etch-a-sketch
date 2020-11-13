@@ -1,0 +1,30 @@
+#main_grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+    width: max-content;
+    outline: 1px solid black;
+}
+
+.square {
+    outline: 0.5px dotted grey;
+    padding: 18px;
+}
+
+h1 {
+    margin: auto;
+    width: max-content;
+}
+
+.grid-size-select{
+    margin: auto;
+    width: max-content;
+}
+
+
+.options {
+    margin: auto;
+    width: max-content;
+    padding: 20px;
+}

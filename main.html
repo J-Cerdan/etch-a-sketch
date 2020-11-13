@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <link href="styles/style.css" rel="stylesheet">
+        <title>Etch-A-Sketch by Joseph Cerdan</title>
+    </head>
+    <body>
+
+        <h1>Etch-A-Sketch by Joseph Cerdan</h1>
+
+        <div class="grid-size-select">
+            <h6>Grid Size:</h6>
+            <input type="number" id="grid-size" value="16" max="100">
+            <button id="size-btn">submit</button>
+        </div>
+
+
+
+        <div class="options">
+            <button id='clear-btn'>Clear</button>
+            <button id='black-btn'>Black</button>
+            <button id='rgb-btn'>RGB</button>
+            <button id='colourSelect-btn'>Colour Selected: <input type="color" value="#ff0000" id="input-colour"></button>
+            <button id='eraser-btn'>Eraser</button>
+        </div>
+
+        <div id="main_grid"></div>
+
+        <script src="script/script.js"></script>
+    </body>
+</html>
